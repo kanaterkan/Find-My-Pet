@@ -1,0 +1,19 @@
+{
+  "ids": {
+    "User": 2,
+    "Location": 2,
+    "PetReport": 3
+  },
+  "models": {
+    "User": {
+      "1": "{\"firstName\":\"Max\",\"lastName\":\"Mustermann\",\"email\":\"max@mustermann.de\",\"password\":\"12345\",\"phoneNumber\":\"12344\",\"id\":1}"
+    },
+    "Location": {
+      "1": "{\"coordinates\":\"40.7128,-74.0060\",\"id\":1}"
+    },
+    "PetReport": {
+      "1": "{\"petName\":\"bello\",\"petType\":\"dog\",\"petBreed\":\"beagle\",\"petDescription\":\"huff\",\"petGender\":true,\"dateReported\":\"2023-11-07T12:30:13.363Z\",\"petPicture\":\"string\",\"isFound\":false,\"userId\":1,\"locationId\":1,\"id\":1}",
+      "2": "{\"petName\":\"string\",\"petType\":\"string\",\"petBreed\":\"string\",\"petDescription\":\"string\",\"petGender\":true,\"dateReported\":\"2023-11-07T12:32:24.553Z\",\"petPicture\":\"string\",\"isFound\":true,\"userId\":1,\"locationId\":1,\"id\":2}"
+    }
+  }
+}
