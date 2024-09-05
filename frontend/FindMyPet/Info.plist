@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Add these lines within the dict tag for location permissions -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location to report the missing pet's last known location.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We need your location to continuously track the missing pet while the app is open.</string>
+
+    <key>NSCameraUsageDescription</key>
+    <string>Allows you to take photos for uploading as part of reporting a missing pet.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Allows you to choose photos from your library to upload as part of reporting a missing pet.</string>
+
+</dict>
+</plist>
+
